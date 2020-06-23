@@ -1,68 +1,68 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Bearded Gent online store
 
-## Available Scripts
+This project is an online shopping store that sells tech gadgets. 
+It provides an easy access for people to buy tech gadgets like phones,laptops, cameras which can prove to be a hassle than going around at a physical score. With London Tech Store all gadgets are put in one place. At a reasonable price. 
 
-In the project directory, you can run:
+## Table of Contents
 
-### `npm start`
+- Home page
+- Product page
+- About page
+- Contact us
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Technologies Used
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Technologies and Tools Used:
 
-### `npm test`
+## Languages:
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- HTML
+- CSS
+- JavaScript
+- Bootstrap
+- React
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+### Tools
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Google Chrome
+- Github
+- Git
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Screenshots
+## Screenshots of the pages
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Index
+![](https://github.com/BonganiMaila/Bearded-Gent-online-store-/blob/master/Images/index.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Catalogue Page
+![](https://github.com/BonganiMaila/Bearded-Gent-online-store-/blob/master/Images/catalogue.png)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Shopping Cart
+![](https://github.com/BonganiMaila/Bearded-Gent-online-store-/blob/master/Images/shopping.png)
 
-## Learn More
+### Testimonial Page
+![](https://github.com/BonganiMaila/Bearded-Gent-online-store-/blob/master/Images/testimonial.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### About Us Page
+![](https://github.com/BonganiMaila/Bearded-Gent-online-store-/blob/master/Images/about%20us.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Orders and Delivery
+![](https://github.com/BonganiMaila/Bearded-Gent-online-store-/blob/master/Images/checkout.png)
 
-### Code Splitting
+### Contact
+![](https://github.com/BonganiMaila/Bearded-Gent-online-store-/blob/master/Images/contact.png)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+### Terms
+![](https://github.com/BonganiMaila/Bearded-Gent-online-store-/blob/master/Images/terms.png)
 
-### Analyzing the Bundle Size
+### Disclaimer
+![](https://github.com/BonganiMaila/Bearded-Gent-online-store-/blob/master/Images/disclaimer.png)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 
-### Making a Progressive Web App
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+## Contributors
 
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+### Bongani Maila - 2020
