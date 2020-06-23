@@ -34,34 +34,23 @@ It provides an easy access for people to buy tech gadgets like phones,laptops, c
 ## Screenshots
 ## Screenshots of the pages
 
-### Index
+### Home Page
+![](https://github.com/BonganiMaila/London-Tech-Store/blob/master/screen%20shot/home.png)
+
+
+### About Us
 ![](https://github.com/BonganiMaila/London-Tech-Store/blob/master/screen%20shot/about%20us.png)
 
 
+### Contact Us
+![](https://github.com/BonganiMaila/London-Tech-Store/blob/master/screen%20shot/contact%20us.png)
 
-### Catalogue Page
-![](https://github.com/BonganiMaila/Bearded-Gent-online-store-/blob/master/Images/catalogue.png)
+### Featured Products Page
+![](https://github.com/BonganiMaila/London-Tech-Store/blob/master/screen%20shot/featured%20products.png)
 
-### Shopping Cart
-![](https://github.com/BonganiMaila/Bearded-Gent-online-store-/blob/master/Images/shopping.png)
+### Our Products Page
+![](https://github.com/BonganiMaila/London-Tech-Store/blob/master/screen%20shot/our%20products.png)
 
-### Testimonial Page
-![](https://github.com/BonganiMaila/Bearded-Gent-online-store-/blob/master/Images/testimonial.png)
-
-### About Us Page
-![](https://github.com/BonganiMaila/Bearded-Gent-online-store-/blob/master/Images/about%20us.png)
-
-### Orders and Delivery
-![](https://github.com/BonganiMaila/Bearded-Gent-online-store-/blob/master/Images/checkout.png)
-
-### Contact
-![](https://github.com/BonganiMaila/Bearded-Gent-online-store-/blob/master/Images/contact.png)
-
-### Terms
-![](https://github.com/BonganiMaila/Bearded-Gent-online-store-/blob/master/Images/terms.png)
-
-### Disclaimer
-![](https://github.com/BonganiMaila/Bearded-Gent-online-store-/blob/master/Images/disclaimer.png)
 
 
 
