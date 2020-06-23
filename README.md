@@ -35,7 +35,9 @@ It provides an easy access for people to buy tech gadgets like phones,laptops, c
 ## Screenshots of the pages
 
 ### Index
-![](https://github.com/BonganiMaila/Bearded-Gent-online-store-/blob/master/Images/index.png)
+![](https://github.com/BonganiMaila/London-Tech-Store/blob/master/screen%20shot/about%20us.png)
+
+
 
 ### Catalogue Page
 ![](https://github.com/BonganiMaila/Bearded-Gent-online-store-/blob/master/Images/catalogue.png)
