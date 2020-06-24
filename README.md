@@ -37,7 +37,7 @@ It provides an easy access for people to buy tech gadgets like phones,laptops, c
 ## Screenshots of the pages
 
 ### Home Page
-![](https://github.com/BonganiMaila/London-Tech-Store/blob/master/screen%20shot/home.png)
+![](https://github.com/BonganiMaila/London-Tech-Store/blob/master/screen%20shot/homePage.png)
 
 ### Shopping Cart
 ![](https://github.com/BonganiMaila/London-Tech-Store/blob/master/screen%20shot/cart.png)
