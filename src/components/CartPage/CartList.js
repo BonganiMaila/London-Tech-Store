@@ -13,22 +13,27 @@ export default function CartList() {
               if (cart.length === 0) {
                 return (
                   <h1 className="text-title text-center my-4">
-                    Your cart is currently empty
+                    your cart is currently empty
                   </h1>
                 );
               }
               return (
                 <>
-                {/*mapping of the items in the cart*/}
-                  {cart.map(item=>(<CartItem key={item.id} CartItem={item} increment={increment} decrement={decrement} removeItem={removeItem}></CartItem>))}
+                  {cart.map(item => (
+                    <CartItem
+                      key={item.id}
+                      cartItem={item}
+                      increment={increment}
+                      decrement={decrement}
+                      removeItem={removeItem}
+                    />
+                  ))}
                 </>
               );
             }}
           </ProductConsumer>
         </div>
       </div>
-      cart list
-      <CartItem />
     </div>
   );
 }

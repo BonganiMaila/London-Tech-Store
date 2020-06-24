@@ -1,31 +1,22 @@
-import React from 'react'
-import { ProductConsumer } from '../context/context';
-import Hero from '../components/hero';
-import { Link } from 'react-router-dom';
-import Services from '../components/homePage/services';
-import FeaturedProducts from '../components/homePage/featuredProducts';
-
+import React from "react";
+import Hero from "../components/Hero";
+import { Link } from "react-router-dom";
+import Services from "../components/HomePage/Services";
+import Featured from "../components/HomePage/Featured";
 export default function HomePage() {
-    return ( 
-        <>
-
-        
-        <Hero title = "Awesome Tech"
-        max = "true">
-
-        
-        <Link to = "/products"
-        className = "main-link"
-        style = {
-            { margin: "2rem" }
-        }> our products </Link>   
-        </Hero>  
-        <Services />
-        
-
-        {/*  you can comment out this section once you fix the error  */}
-        {/*  <FeaturedProducts />  */}
-        <FeaturedProducts /> 
-        </>
-    )
+  return (
+    <>
+    {/*Import the hero component*/}
+      <Hero title="awesome gadgets" max="true">
+        {/*Link to the products page*/}
+        <Link to="/products" className="main-link" style={{ margin: "2rem" }}>
+          our products
+        </Link>
+      </Hero>
+      {/*Import the services component*/}
+      <Services />
+      {/*Import the featured products component*/}
+      <Featured />
+    </>
+  );
 }

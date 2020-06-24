@@ -1,33 +1,23 @@
 import React from "react";
 import { FaBars, FaCartPlus } from "react-icons/fa";
 import styled from "styled-components";
-
-//importing the product consumer from the context folder
 import { ProductConsumer } from "../context";
-//importing the image/logo
-import logo from "../images/logo.png";
 
-
-
-//This is the navigation bar 
 export default function Navbar() {
   return (
+    //import the product consumer from the context.js
     <ProductConsumer>
       {value => {
         const { cartItems, handleSidebar, handleCart } = value;
         return (
           <NavWrapper>
-
-            {/*The sidebar icon*/}
             <div className="nav-center">
+              {/*hamburgar icon*/}
               <FaBars className="nav-icon" onClick={handleSidebar} />
-
-              {/*The logo and the name of the store*/}
-             
+              {/*title of the site*/}
               <h3>London's Tech Store</h3>
-
-              {/*The cart icon*/}
               <div className="nav-cart">
+                {/*Cart icon*/}
                 <FaCartPlus className="nav-icon" onClick={handleCart} />
                 <div className="cart-items">{cartItems}</div>
               </div>
@@ -39,17 +29,16 @@ export default function Navbar() {
   );
 }
 
-//
 const NavWrapper = styled.nav`
   position: -webkit-sticky;
   position: sticky;
   top: 0;
   width: 100%;
-  z-index:1;
-  height: 60px;
+  height:60px;
   padding: 1rem 1.5rem;
   background: var(--mainGrey);
   border-bottom: 3px solid var(--primaryColor);
+  z-index: 1;
   .nav-center {
     display: flex;
     align-items: center;
@@ -76,10 +65,9 @@ const NavWrapper = styled.nav`
   }
   h3{
     
-  font-size:2rem;
-  text-shadow: 4px 4px 2px rgba(150,150,150,0.3);
-text-transform: uppercase;
-letter-spacing:var(--mainSpacing);
-  }
-
+    font-size:2rem;
+    text-shadow: 4px 4px 2px rgba(150,150,150,0.3);
+  text-transform: uppercase;
+  letter-spacing:var(--mainSpacing);
+    }
 `;

@@ -1,39 +1,40 @@
 import React from "react";
 
 export default function CartColumns() {
-  return <div className="container-fluid text-center 
-              d-none d-lg-block my-5">
-    <div className="row">
-      {/*single column*/}
+  return (
+    <div className="container-fluid text-center d-none d-lg-block my-5">
+      <div className="row">
+        {/* single column */}
         <div className="col-lg-2">
-          <p className="text-uppercase">Products</p>
+          <p className="text-uppercase">products</p>
         </div>
-        {/*end of single */}
-        {/*single column*/}
+        {/* end of single column */}
+        {/* single column */}
         <div className="col-lg-2">
-          <p className="text-uppercase">Name of product</p>
+          <p className="text-uppercase">name of product</p>
         </div>
-        {/*end of single */}
-        {/*single column*/}
+        {/* end of single column */}
+        {/* single column */}
         <div className="col-lg-2">
-          <p className="text-uppercase">Price</p>
+          <p className="text-uppercase">price</p>
         </div>
-        {/*end of single */}
-        {/*single column*/}
+        {/* end of single column */}
+        {/* single column */}
         <div className="col-lg-2">
-          <p className="text-uppercase">Quantity</p>
+          <p className="text-uppercase">quantity</p>
         </div>
-        {/*end of single */}
-        {/*single column*/}
+        {/* end of single column */}
+        {/* single column */}
         <div className="col-lg-2">
-          <p className="text-uppercase">Remove</p>
+          <p className="text-uppercase">remove</p>
         </div>
-        {/*end of single */}
-        {/*single column*/}
+        {/* end of single column */}
+        {/* single column */}
         <div className="col-lg-2">
-          <p className="text-uppercase">Total</p>
+          <p className="text-uppercase">total</p>
         </div>
-        {/*end of single */}
+        {/* end of single column */}
+      </div>
     </div>
-    </div>;
+  );
 }

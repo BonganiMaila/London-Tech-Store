@@ -1,14 +1,15 @@
-import React from 'react';
-import { ProductConsumer } from '../context/context';
-import CartSection from '../components/CartPage'
-import Hero from '../components/hero';
-import cartBack from '../images/cartBack2.jpg'; 
+import React from "react";
+import Hero from "../components/Hero";
+import cartBack from "../images/cartBack1.jpg";
+import CartSection from "../components/CartPage";
 
 export default function CartPage() {
-    return ( 
-        <>
-        <Hero img={cartBack}/>
-        <CartSection />
-        </>
-    )
+  return (
+    <>
+    {/*import the cart image*/}
+      <Hero img={cartBack} />
+      {/*import all the components in the cart folder*/}
+      <CartSection />
+    </>
+  );
 }

@@ -1,14 +1,14 @@
-import React from 'react';
-import Products from '../components/ProductsPage/products';
-import Hero from '../components/hero';
-import ProductBack from '../images/productBack5.jpg';
-
-//import productsBcg from "../images/productsBcg.jpeg";
+import React from "react";
+import Products from "../components/ProductsPage/Products";
+import Hero from "../components/Hero";
+import productsBack from "../images/productBack5.jpg";
 
 export default function ProductsPage() {
   return (
     <>
-      <Hero img={ProductBack} />
+      {/*Import the products background*/}
+      <Hero img={productsBack} />
+      {/*Import the products component*/}
       <Products />
     </>
   );

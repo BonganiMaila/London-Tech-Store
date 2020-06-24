@@ -1,14 +1,14 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import { ProductConsumer } from '../context/context';
-import Hero from '../components/hero';
-import singleProductImg from '../images/singleProductImg3.jpg';
-
-
+import React from "react";
+import { Link } from "react-router-dom";
+import Hero from "../components/Hero";
+import singleProductImg from "../images/singleProductImg3.jpg";
+import { ProductConsumer } from "../context";
 export default function SingleProductPage() {
   return (
     <>
+    {/*import the image background*/}
       <Hero img={singleProductImg} title="single product" />
+      {/*import the product consumer from the context*/}
       <ProductConsumer>
         {value => {
           const { singleProduct, addToCart, loading } = value;
@@ -26,13 +26,14 @@ export default function SingleProductPage() {
             image
           } = singleProduct;
           return (
+            //this is the container for the image as well as the product info
             <section className="py-5">
               <div className="container">
                 <div className="row">
                   <div className="col-10 mx-auto col-sm-8 col-md-6 my-3">
                     <img
                       src={`../${image}`}
-                      // src={images}
+                      // src={image}
                       alt="single product"
                       className="img-fluid"
                     />
@@ -49,6 +50,7 @@ export default function SingleProductPage() {
                       some info about product :
                     </p>
                     <p>{description}</p>
+                    {/*this is the button which link back to add to cart*/}
                     <button
                       type="button"
                       className="main-link"
@@ -57,6 +59,7 @@ export default function SingleProductPage() {
                     >
                       add to cart
                     </button>
+                    {/*this is the button which link back to thr products page*/}
                     <Link
                       to="/products"
                       className="main-link"
