@@ -9,6 +9,8 @@ It provides an easy access for people to buy tech gadgets like phones,laptops, c
 - Product page
 - About page
 - Contact us
+- Shopping Cart
+- Individual Product
 
 ## Technologies Used
 
