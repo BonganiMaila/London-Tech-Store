@@ -1,7 +1,7 @@
 # London Tech online store
 
 This project is an online shopping store that sells tech gadgets. 
-It provides an easy access for people to buy tech gadgets like phones,laptops, cameras which can prove to be a hassle than going around at a physical score. With London Tech Store all gadgets are put in one place. At a reasonable price. 
+It provides an easy access for people to buy tech gadgets like phones,laptops, cameras which can prove to be a hassle than going around at a physical score. With London Tech Store all gadgets are put in one place. 
 
 ## Table of Contents
 
